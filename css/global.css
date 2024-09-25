@@ -2,12 +2,12 @@ body
 {
 	width: 850px;
 	margin: auto;
-	background-color:#E0CCA7;
+	background-color:#F1B697;
 }
 
 #header 
 {
-	background-color: #E0CCA7;
+	background-color: #F1B697;
 	height: 180px;
 }
 
@@ -16,7 +16,7 @@ body
 	width: 350px;
 	padding-top: 10px;
 	padding-left: 20px;
-	padding-bottom: 10px;
+	padding-bottom: 0px;
 }
 
 #info_box
@@ -41,12 +41,12 @@ li
 {
 	float: left;
  	padding: 13px 20px 13px 20px;
-	background-color: #633A2A;
+	background-color: #723D5E;
  	font-family: "Slabo 27px", serif;
  	letter-spacing: 1px;
  	font-size: 16px;
  	text-decoration: none;
- 	color: #9BD6EA;
+ 	color: #53BE9F;
 }
 
 #left_button
@@ -58,24 +58,24 @@ li
 #right_filler 
 {
 	float: right;
-	width: 331px;
+	width: 329px;
 	height: 46px;
 	padding: 0px;
-	background-color: #633A2A;
+	background-color: #723D5E;
     border-radius: 0px 3px 3px 0px;
 }
 
 li.current
 {
-	background-color: #A35A22;
+	background-color: #8A282A;
 	text-decoration: none;
  	font-size: 16px;
- 	color: #9BD6EA;
+ 	color: #4AA594;
 }
 
 li:hover
 {
-	background-color: #A35A22;
+	background-color: #8A282A;
 }
 
 a
