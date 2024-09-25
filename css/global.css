@@ -1,13 +1,13 @@
 body 
 {
-	width: 850px;
+	width: 900px;
 	margin: auto;
-	background-color:#F1B697;
+	background-color:#723D5E;
 }
 
 #header 
 {
-	background-color: #F1B697;
+	background-color: #723D5E;
 	height: 180px;
 }
 
@@ -41,12 +41,12 @@ li
 {
 	float: left;
  	padding: 13px 20px 13px 20px;
-	background-color: #723D5E;
+	background-color: #8A282A;
  	font-family: "Slabo 27px", serif;
  	letter-spacing: 1px;
  	font-size: 16px;
  	text-decoration: none;
- 	color: #53BE9F;
+ 	color: #F1B697;
 }
 
 #left_button
@@ -58,24 +58,24 @@ li
 #right_filler 
 {
 	float: right;
-	width: 329px;
+	width: 380px;
 	height: 46px;
 	padding: 0px;
-	background-color: #723D5E;
+	background-color: #8A282A;
     border-radius: 0px 3px 3px 0px;
 }
 
 li.current
 {
-	background-color: #8A282A;
+	background-color: #53BE9F;
 	text-decoration: none;
  	font-size: 16px;
- 	color: #4AA594;
+ 	color: #F1B697;
 }
 
 li:hover
 {
-	background-color: #8A282A;
+	background-color: #53BE9F;
 }
 
 a
