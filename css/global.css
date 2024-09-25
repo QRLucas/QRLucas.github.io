@@ -1,0 +1,105 @@
+body 
+{
+	width: 850px;
+	margin: auto;
+	background-color:#E0CCA7;
+}
+
+#header 
+{
+	background-color: #E0CCA7;
+	height: 180px;
+}
+
+#logo 
+{
+	width: 350px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+#info_box
+{
+	float: right;
+	text-align: right;
+	font-family: "Slabo 27px", serif;
+	font-size: 16px;
+	padding: 26px 20px;
+	line-height: 1.4;
+}
+
+#nav_bar 
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	width: 850px;
+}
+
+li 
+{
+	float: left;
+ 	padding: 13px 20px 13px 20px;
+	background-color: #633A2A;
+ 	font-family: "Slabo 27px", serif;
+ 	letter-spacing: 1px;
+ 	font-size: 16px;
+ 	text-decoration: none;
+ 	color: #9BD6EA;
+}
+
+#left_button
+{
+	padding-left: 20px;
+	border-radius: 3px 0px 0px 3px;
+}
+
+#right_filler 
+{
+	float: right;
+	width: 331px;
+	height: 46px;
+	padding: 0px;
+	background-color: #633A2A;
+    border-radius: 0px 3px 3px 0px;
+}
+
+li.current
+{
+	background-color: #A35A22;
+	text-decoration: none;
+ 	font-size: 16px;
+ 	color: #9BD6EA;
+}
+
+li:hover
+{
+	background-color: #A35A22;
+}
+
+a
+{
+	text-decoration: none;
+	color: #9BD6EA;
+}
+
+
+#hero
+{
+	Height: 400px;
+}
+
+#footer
+{
+	margin-top: 50px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+a.foot_link
+{
+	text-decoration: none;
+	color: #000000;
+}
