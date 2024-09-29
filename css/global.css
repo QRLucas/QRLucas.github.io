@@ -37,7 +37,7 @@ body
 	list-style-type: none;
 	width: 900px;
 	overflow: hidden;
-	background-color: #D9A300;
+	background-color: #4A5AA1;
 	border-radius: 3px 3px 3px 3px;
 }
 
@@ -74,7 +74,7 @@ li
 
 li.current
 {
-	background-color: #E6BC40;
+	background-color: #7683B8;
 	text-decoration: none;
  	font-size: 16px;
  	color: #F1B697;
@@ -82,7 +82,7 @@ li.current
 
 li:hover
 {
-	background-color: #53BE9F;
+	background-color: #7683B8;
 }
 
 a
