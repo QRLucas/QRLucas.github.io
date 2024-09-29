@@ -41,6 +41,7 @@ body
 
 li 
 {
+	float: left;
 	display: block;
  	padding: 13px 20px 13px 20px;
 	background-color: #4AA594;
