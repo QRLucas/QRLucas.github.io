@@ -38,6 +38,7 @@ body
 	width: 900px;
 	overflow: hidden;
 	background-color: #4AA594;
+	border-radius: 3px 3px 3px 3px;
 }
 
 li 
@@ -55,7 +56,6 @@ li
 #left_button
 {
 	padding-left: 20px;
-	border-radius: 3px 0px 0px 3px;
 }
 
 #right_filler 
