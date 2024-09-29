@@ -37,7 +37,7 @@ body
 	list-style-type: none;
 	width: 900px;
 	overflow: hidden;
-	background-color: #4AA594;
+	background-color: #D9A300;
 	border-radius: 3px 3px 3px 3px;
 }
 
@@ -50,7 +50,7 @@ li
  	letter-spacing: 1px;
  	font-size: 16px;
  	text-decoration: none;
- 	color: #F1B697;
+ 	color: #E6BC40;
 }
 
 #left_button
@@ -74,7 +74,7 @@ li
 
 li.current
 {
-	background-color: #53BE9F;
+	background-color: #E6BC40;
 	text-decoration: none;
  	font-size: 16px;
  	color: #F1B697;
