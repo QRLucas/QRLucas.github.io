@@ -64,12 +64,13 @@ li
 
 #right_filler 
 {
-	float: right;
+	/*float: right;*/
 	width: 430px;
 	height: 46px;
 	padding: 0px;
 	position: absolute;
 	top: 0px;
+	right: 0px;
 	background-color: #4AA594;
     border-radius: 0px 3px 3px 0px;
 	z-index: 1;
