@@ -37,7 +37,7 @@ body
 	list-style-type: none;
 	width: 900px;
 	position: absolute;
-	top: 300px;
+	top: 0px;
 	z-index: 5;
 }
 
@@ -52,7 +52,7 @@ li
  	text-decoration: none;
  	color: #F1B697;
 	position: absolute;
-	top: 300px;
+	top: 0px;
 	z-index: 9;
 }
 
@@ -69,7 +69,7 @@ li
 	height: 46px;
 	padding: 0px;
 	position: absolute;
-	top: 300px;
+	top: 0px;
 	background-color: #4AA594;
     border-radius: 0px 3px 3px 0px;
 	z-index: 1;
