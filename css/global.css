@@ -37,17 +37,14 @@ body
 	list-style-type: none;
 	width: 900px;
 	overflow: hidden;
+	background-color: #4AA594;
 }
 
-li {
-	float: left;
-  }
-
-li a
+li 
 {
+	float: left;
 	display: block;
  	padding: 13px 20px 13px 20px;
-	background-color: #4AA594;
  	font-family: "Slabo 27px", serif;
  	letter-spacing: 1px;
  	font-size: 16px;
