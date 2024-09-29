@@ -38,6 +38,7 @@ body
 	padding: 0px;
 	list-style-type: none;
 	width: 900px;
+	z-index: 5;
 }
 
 li 
@@ -50,6 +51,7 @@ li
  	font-size: 16px;
  	text-decoration: none;
  	color: #F1B697;
+	 z-index: 9;
 }
 
 #left_button
@@ -61,11 +63,12 @@ li
 #right_filler 
 {
 	float: right;
-	width: 361.5px;
+	width: 410px;
 	height: 46px;
 	padding: 0px;
 	background-color: #4AA594;
     border-radius: 0px 3px 3px 0px;
+	z-index: 1;
 }
 
 li.current
