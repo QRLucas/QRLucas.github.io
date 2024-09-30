@@ -61,8 +61,8 @@
 				if ($file === '..' || $file === '.') continue;  
 				$ext = explode(".", $file);
 				$ext = strToLower($ext[count($ext)-1]);
-				if (!in_array($ext, $exts)) continue; <!-- // if not a valid image file, skip -->
-		   ?>
+				if (!in_array($ext, $exts)) continue;} <!-- // if not a valid image file, skip -->
+		   ?>	  
 		<div class="col-3 col-lg-4 col-md-6 col-sm-12">
 		   <div class="gallery-item">
 			 <div class="gallery-img">
@@ -73,7 +73,7 @@
 		   </div>
 		 </div>
 			  
-		  <?php }?>
+		 <!--<?php }?>-->
     
     <div class="spacing_after_boxes">
     </div>
