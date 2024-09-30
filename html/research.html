@@ -66,20 +66,45 @@
       <p>Donuts</p>
       <p>Donuts</p>
     </div>
+
+
+	<div class="ajax-inserted-content">
+		<!-- Section Gallery -->
+		<section class="section gallery grid layout-4-col">
+		 <div class="container">
+		   <div class="row">
+		   <?php
+			  $imagesPath = '/images/';
+			  // this is assuming your website has a folder at the document-root level called 'portfolio-images'.
+			  // document-root means where your top level index.html (or index.php) is.
+			  $dir = $_SERVER['DOCUMENT_ROOT'] .  $imagesPath; 
+			  $files = scandir($dir);
+			  $exts = ['png','jpg','jpeg','gif','bmp','webp'];
+			  foreach ($files as $file) {
+				if ($file === '..' || $file === '.') continue;  
+				$ext = explode(".", $file);
+				$ext = strToLower($ext[count($ext)-1]);
+				if (!in_array($ext, $exts)) continue; // if not a valid image file, skip 
+		   ?>
+		<div class="col-3 col-lg-4 col-md-6 col-sm-12">
+		   <div class="gallery-item">
+			 <div class="gallery-img">
+			   <img data-svg="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==" src="<?php echo $imagesPath . $file;?>" alt="Demo img">
+	  
+			   <!-- <img data-lazy-image src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==" data-src="<?php echo $imagesPath . $file;?>" alt="Demo img"> -->
+			 </div>
+		   </div>
+		 </div>
+			  
+		  <?php }?>
     
     <div class="spacing_after_boxes">
-    
-  	</div>
+    </div>
 	
 	<div id="footer">
-		<a href="../index.html" class="foot_link">Home</a> 
-		| <a href="menu.html" class="foot_link">Menu </a>
-		| <a href="ourcoffee.html" class="foot_link">Our Coffee</a> 
-		| <a href="#" class="foot_link">Hours </a>
-		| <a href="#" class="foot_link">Blog </a>
-		| <a href="#" class="foot_link">About</a>
-		<br>
-		(406) 555-6666
+		<a href="index.html" class="foot_link">Home</a> 
+		| <a href="html/menu.html" class="foot_link">Research</a>
+		| <a href="html/ourcoffee.html" class="foot_link">CV</a> 
 	</div>
 
 </body>
