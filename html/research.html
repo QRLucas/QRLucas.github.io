@@ -52,11 +52,11 @@
 		 <div class="container">
 		   <div class="row">
 		   <?php
-			  $imagesPath = '/images/';
+			  <!-- $imagesPath = '/images/';
 			  // this is assuming your website has a folder at the document-root level called 'portfolio-images'.
 			  // document-root means where your top level index.html (or index.php) is.
-			  $dir = $_SERVER['DOCUMENT_ROOT'] .  $imagesPath; 
-			  $files = scandir($dir);
+			  $dir = $_SERVER['DOCUMENT_ROOT'] .  $imagesPath; -->
+			  $files = scandir($/images/);
 			  $exts = ['png','jpg','jpeg','gif','bmp','webp'];
 			  foreach ($files as $file) {
 				if ($file === '..' || $file === '.') continue;  
