@@ -12,20 +12,20 @@ p
 {
 	text-align:center;
 }
-#burrito_image{
-	float:left;
-	width: 283px;
-	height: 128px;
+#one_image{
+	float:center;
+	width: 100%;
+	/*height: 128px;*/
 }
-#taco_image{
+#two_image{
 	float:left;
-	width: 283px;
-	height: 128px;
+	width: 50%;
+
 }
-#donut_image{
+#three_image{
 	float:left;
 	width: 283px;
-	height: 128px;
+
 }
 .box
 {
@@ -41,8 +41,8 @@ p
 }
 .spacing_after_boxes
 {
-	float: left;
-	width:850px;
+	float: center;
+	width:900px;
 	margin-top:70px;
 }
 #right_box
