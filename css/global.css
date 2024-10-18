@@ -83,11 +83,6 @@ a
 	Height: 400px;
 }
 
-table, th, td 
-{
-  	border: 2px solid #fdfdff;
-	border-collapse: collapse;
-}
 
 #footer
 {
