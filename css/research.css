@@ -12,6 +12,12 @@ p
 {
 	text-align:center;
 }
+td{
+	border-color: #0000FF;
+	background-color: #96D4D4;
+}
+
+
 #one_image{
 	float:center;
 	width: 100%;
@@ -51,8 +57,3 @@ p
 	float:right;
 }
 
-
-th{
-  	border: 2px solid;
-	border-color: #0000FF;
-}
