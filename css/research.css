@@ -52,7 +52,7 @@ p
 }
 
 
-.table, th, td, tr {
+.th, td{
   	border: 2px solid;
 	border-collapse: collapse;
 	border-color: #0000FF;
