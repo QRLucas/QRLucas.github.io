@@ -54,6 +54,7 @@ p
 
 table, th, td 
 {
-  	border: 2px solid black;
+  	border: 2px solid;
 	border-collapse: collapse;
+	border-color: #fdfdff;
 }
