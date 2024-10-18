@@ -52,8 +52,7 @@ p
 }
 
 
-#table, th, td, tr 
-{
+.table, th, td, tr {
   	border: 2px solid;
 	border-collapse: collapse;
 	border-color: #fdfdff;
