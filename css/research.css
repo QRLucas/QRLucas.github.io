@@ -15,12 +15,14 @@ p
 
 table {
   	border-collapse: collapse;
+	float:center;
 }
 
 td,
 th {
-  	border: 1px solid;
-	border-color: red;
+  	border: 2px solid;
+	border-color: #3D5B82;
+	 border-radius: 3px;
 }
 /*
 th,td{
