@@ -13,6 +13,7 @@ p
 	text-align:center;
 }
 th,td{
+	border-width: 30px;
 	border-color: black;
 	background-color: #96D4D4;
 }
