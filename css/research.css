@@ -50,3 +50,10 @@ p
 	border-style:none;
 	float:right;
 }
+
+
+table, th, td 
+{
+  	border: 2px solid #fdfdff;
+	border-collapse: collapse;
+}
