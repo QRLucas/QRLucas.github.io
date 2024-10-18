@@ -12,8 +12,8 @@ p
 {
 	text-align:center;
 }
-td{
-	border-color: #0000FF;
+th,td{
+	border-color: #0000ff;
 	background-color: #96D4D4;
 }
 
