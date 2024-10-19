@@ -25,9 +25,8 @@ th {
 	border-radius: 6px;
 }
 
-.center {
-  	margin-left: auto;
-  	margin-right: auto;
+data {
+  	float: center;
 }
 /*
 th,td{
