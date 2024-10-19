@@ -40,7 +40,6 @@ th,td{
 #one_image{
 	float:center;
 	width: 100%;
-	/*height: 128px;*/
 }
 #two_image{
 	float:left;
@@ -49,9 +48,15 @@ th,td{
 }
 #three_image{
 	float:left;
-	width: 283px;
+	width: 33%;
 
 }
+#table_image{
+	float:left;
+	width: 20%;
+}
+	
+
 .box
 {
 	font-family: "Slabo 27px", serif;
