@@ -16,13 +16,18 @@ p
 table {
   	border-collapse: collapse;
 	float:center;
-	border-radius: 6px;
 }
 
 td,
 th {
   	border: 2px solid;
 	border-color: #3D5B82;
+	border-radius: 6px;
+}
+
+.center {
+  	margin-left: auto;
+  	margin-right: auto;
 }
 /*
 th,td{
