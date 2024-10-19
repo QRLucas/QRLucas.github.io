@@ -26,7 +26,8 @@ th {
 }
 
 data {
-  	float: center;
+  	margin-left: auto; 
+  	margin-right: auto;
 }
 /*
 th,td{
