@@ -1,0 +1,16 @@
+#header 
+{
+	background-color: #fdfdff;
+	height: 100px;
+}
+
+#nav_bar 
+{
+	margin: 50px 0px 10px 0px;
+	padding: 0px;
+	list-style-type: none;
+	width: 900px;
+	overflow: hidden;
+	background-color: #3D5B82;
+	border-radius: 3px 3px 3px 3px;
+}
