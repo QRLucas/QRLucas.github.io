@@ -71,11 +71,16 @@ li:hover
 	background-color: #7683B8;
 }
 
-/*a
+a
 {
 	text-decoration: none;
+	color: #7683B8;
+}
+
+a.nav{
+	text-decoration: none;
 	color: #FFFDDE;
-}*/
+}
 
 
 #hero
