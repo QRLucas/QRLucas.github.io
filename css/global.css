@@ -50,7 +50,7 @@ li
  	letter-spacing: 1px;
  	font-size: 16px;
  	text-decoration: none;
- 	color: #E6BC40;
+	color: #FFFDDE;
 }
 
 #left_button
@@ -63,7 +63,7 @@ li.current
 	background-color: #7683B8;
 	text-decoration: none;
  	font-size: 16px;
- 	color: #F1B697;
+	color: #FFFDDE;
 }
 
 li:hover
@@ -71,11 +71,11 @@ li:hover
 	background-color: #7683B8;
 }
 
-a
+/*a
 {
 	text-decoration: none;
 	color: #FFFDDE;
-}
+}*/
 
 
 #hero
