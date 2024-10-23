@@ -85,7 +85,7 @@ a
 }
 .spacing_after_boxes
 {
-	margin-top: auto;
+	display: grid;
 	float: center;
 	width:900px;
 	/*margin-top:70px;*/
