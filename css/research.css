@@ -85,9 +85,10 @@ a
 }
 .spacing_after_boxes
 {
+	margin-top: auto;
 	float: center;
 	width:900px;
-	margin-top:70px;
+	/*margin-top:70px;*/
 }
 #right_box
 {
