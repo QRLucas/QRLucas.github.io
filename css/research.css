@@ -7,7 +7,14 @@ h1
 h2
 {
 	text-align:center;
+	font-family: "Slabo 21px", serif;
 }
+h3
+{
+	text-align:left;
+	font-family: "Slabo 21px", serif;
+}
+
 p
 {
 	text-align:center;
