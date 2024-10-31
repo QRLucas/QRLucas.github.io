@@ -7,11 +7,13 @@ h1
 h2
 {
 	text-align:center;
-	font-family: "Slabo 23px", serif;
+	font-family: "Slabo 27px", serif;
+	font-size: 24px;
 }
 h3
 {
-	font-family: "Slabo 21px", serif;
+	font-family: "Slabo 27px", serif;
+	font-size: 21px;
 }
 
 p
