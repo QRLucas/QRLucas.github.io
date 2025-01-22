@@ -42,6 +42,9 @@ th{
 	table-layout: fixed;
 	width: 100%;
 }
+star td {
+	word-wrap: break-word;
+  }
 #th0 {
 	width:5%;
 }
