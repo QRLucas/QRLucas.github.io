@@ -37,6 +37,11 @@ th{
   	margin-left: auto; 
   	margin-right: auto;
 }
+#star{
+	border-collapse: collapse;
+	table-layout: fixed;
+	width: 100%;
+}
 #th0 {
 	width:5%;
 }
