@@ -42,7 +42,7 @@ th{
 	table-layout: fixed;
 	width: 100%;
 }
-star td {
+table td {
 	word-wrap: break-word;
   }
 #th0 {
