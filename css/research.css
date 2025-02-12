@@ -40,6 +40,8 @@ th{
   	border: 2px solid;
 	border-color: #3D5B82;
 	border-radius: 6px;
+	word-wrap: break-word;
+	padding: 4px;
 }
 
 #data{
