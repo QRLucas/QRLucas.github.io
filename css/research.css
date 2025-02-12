@@ -56,9 +56,9 @@ th{
 /*table td {
 	word-wrap: break-word;
 	padding: 4px;
-  }*/
+  }
 #th0 {
-	width:3px;
+	width:3%;
 }
 #th1 {
 	width:7%;
@@ -74,7 +74,7 @@ th{
 }
 #th5 {
 	width:25%;
-}
+}*/
 
 a
 {
