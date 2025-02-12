@@ -47,6 +47,7 @@ th{
 #data{
   	margin-left: auto; 
   	margin-right: auto;
+	table-layout: fixed;
 }
 #star{
 	border-collapse: collapse;
