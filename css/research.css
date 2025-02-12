@@ -53,10 +53,10 @@ th{
 	table-layout: fixed;
 	width: 100%;
 }
-table td {
+/*table td {
 	word-wrap: break-word;
 	padding: 4px;
-  }
+  }*/
 #th0 {
 	width:3%;
 }
