@@ -64,6 +64,9 @@ table td {
 #binary{
 	background-color: rgba(150, 212, 150, 0.4);
 }
+#binary2{
+	background-color: rgba(200,200,150,0.4);
+}
   
 #th0 {
 	width:3%;
