@@ -1,0 +1,18 @@
+h1{
+	margin-left:140px;
+	margin-bottom:25px;
+	margin-top:40px;
+	text-align:left;
+	font-family: "Slabo 27px", serif;
+}
+#coffee_cup{
+	width:400px;
+	height:250px;
+	float:left;
+	margin-right:12px;
+}
+
+p{
+	font-family: "Slabo 27px", serif;
+	text-align:justify;
+}
