@@ -1,0 +1,382 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+  	<title>Quentin Lucas - Research</title>
+  	<link rel="stylesheet" href="/css/research.css"  type="text/css">
+  	<link rel="stylesheet" href="/css/global.css" type="text/css">
+  	<link rel="stylesheet" href="/css/star.css"  type="text/css">
+  	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="header">
+	<ul id="nav_bar_star">
+	
+	<li id="left_button" class="current"><a href="/html/SEXTANS/research.html" class="nav">(Back)</a></li>
+	<li><a href="/index.html" class="nav">Home</a></li>
+	<li><a href="/html/research.html" class="nav">Research</a></li>
+	<li><a href="/html/vitae.html" class="nav">CV</a></li>
+	
+</ul>	
+</div><h1>29: APOGEE Star 2M10122620-0138301 </h1>
+
+<img src="/images/SEXTANS/rv_curves_fit_5/2M10122620-0138301_rv_curve.jpg" alt="2M10122620-0138301 RV curve" id="one_image">
+
+  <h3>Summary of stellar properties:</h3>
+  		<b>APOGEE visits:</b> 22 <br>
+		<b>Mean SNR</b> = 43.01 <br>
+		<b>h mag</b> = 15.33 <br>
+		<b>gaia g mag</b> = 17.62 <br>
+
+	<h4>GAIA fit parameters</h4>
+		<b>RUWE:</b> = 1.059 <br>
+		<b>Excess Astrometric Noise:</b> = 0.306 <br>
+		<b>Astrometric Noise Sig:</b> = 1.156 <br>
+		<b>Goodness of Fit:</b> = 0.964 <br>
+
+  	<h4>ASPCAP-derived properties</h4>
+  		<b>T_eff</b> = 4550.23 K<br>
+  		<b>log(g)</b> = 1.167 <br>
+		<b>metalicity</b> = -1.884 <br>
+
+	<h4>RV-derived properties</h4>
+  		<b>RV T_eff</b> = 4586.97 K<br>
+  		<b>RV log(g)</b> = 1.335 <br>
+		<b>RV metalicity</b> = -2.097 <br>
+
+	<h4>Joker-derived properties</h4>
+		<b>Joker samples:</b> 4 <br>
+		<b>Unimodal?:</b> False <br>
+		<b>Period average</b> =  2.66 days<br>
+		<b>Eccentricity average</b> = 0.74 <br>
+		<b>Semi-amplitude average</b> = 2.50 km/s<br>
+		<!-- <b>Minimum Delta ln liklihood</b> = .2f <br>
+		(minimum difference in the log-liklihood of the Joker models compared to a simple linear fit)- -->
+
+	<h4>Derived properties</h4>
+		<b>ν_max:</b> 1.87e-06 Hz<br>
+		<b>Δ_ν:</b> 5.04e-07 Hz<br>
+		<b>Stellar Surface Period:</b> 31.05 days 
+	
+	<br>
+
+<img src="/images/sextans/p_vs_e/2M10122620-0138301_pe_scatter.jpg" alt="2M10122620-0138301 Period-eccentricity" id="two_image">
+<img src="/images/sextans/p_vs_k/2M10122620-0138301_pk_scatter.jpg" alt="2M10122620-0138301 K vs Period" id="two_image">
+
+<img src="/images/sextans/p_hist/2M10122620-0138301_histogram.jpg" alt="2M10122620-0138301 Period Histogram" id="two_image">
+<img src="/images/sextans/mass_period/2M10122620-0138301_msini.jpg" alt="2M10122620-0138301 companion masses" id="two_image">
+
+<img src="/images/sextans/periodogram/2M10122620-0138301_periodogram.jpg" alt="2M10122620-0138301 Periodogram" id="two_image">
+<img src="/images/sextans/likelihood_hist_test/2M10122620-0138301_likelihoods.jpg" alt="2M10122620-0138301 Joker delta likelihoods" id="two_image">
+
+
+
+<br> 
+<img src="/images/sextans/ccfs2/asStar-dr17-2M10122620-0138301_ccf.jpg" alt="2M10122620-0138301 Cross-Correlation Function" id="ccf_image"><hr>
+
+<h2>Binary Candidate Analysis</h2>
+
+<img src="/images/sextans/mass_period/2M10122620-0138301_msini.jpg" alt="2M10122620-0138301 companion mass estimates" id="ccf_image">
+
+<hr><h3>Summary of APOGEE Visits:</h3>
+
+	<div>
+		<table id="data">
+  			<tr>
+				<th>Date</th>
+				<th>SNR</th>
+				<th>RV </th>
+				<th>RV error</th>
+				<th>Temp</th>
+				<th>log(g)</th>
+				<th>FE/H</th>
+				<th>Star Flags</th>
+				<th>RV Flags</th>
+			</tr>
+			<tr>
+				<td>58209 </td>
+				<td>8.00313 </td>
+				<td>237.730 </td>
+				<td>0.494 </td>
+				<td>4586.966 </td>
+				<td>1.335 </td>
+				<td>-2.097 </td>
+				<td>SUSPECT_ROTATION </td>
+				<td>1 </td>
+			</tr>
+			<tr>
+				<td>58212 </td>
+				<td>6.69543 </td>
+				<td>236.273 </td>
+				<td>0.587 </td>
+				<td>4586.966 </td>
+				<td>1.335 </td>
+				<td>-2.097 </td>
+				<td>-- </td>
+				<td>1 </td>
+			</tr>
+			<tr>
+				<td>58215 </td>
+				<td><b>4.58564</b> </td>
+				<td>233.280 </td>
+				<td>0.861 </td>
+				<td>4586.966 </td>
+				<td>1.335 </td>
+				<td>-2.097 </td>
+				<td>LOW_SNR,RV_SUSPECT </td>
+				<td>2049 </td>
+			</tr>
+			<tr>
+				<td>58235 </td>
+				<td>6.60141 </td>
+				<td>239.346 </td>
+				<td>0.587 </td>
+				<td>4586.966 </td>
+				<td>1.335 </td>
+				<td>-2.097 </td>
+				<td>-- </td>
+				<td>1 </td>
+			</tr>
+			<tr>
+				<td>58472 </td>
+				<td><b>4.50849</b> </td>
+				<td>238.811 </td>
+				<td>0.882 </td>
+				<td>4586.966 </td>
+				<td>1.335 </td>
+				<td>-2.097 </td>
+				<td>LOW_SNR,RV_SUSPECT </td>
+				<td>2049 </td>
+			</tr>
+			<tr>
+				<td>58501 </td>
+				<td>5.87077 </td>
+				<td>238.137 </td>
+				<td>0.657 </td>
+				<td>4586.966 </td>
+				<td>1.335 </td>
+				<td>-2.097 </td>
+				<td>SUSPECT_ROTATION </td>
+				<td>1 </td>
+			</tr>
+			<tr>
+				<td>58506 </td>
+				<td><b>3.19001</b> </td>
+				<td>239.131 </td>
+				<td>1.089 </td>
+				<td>4586.966 </td>
+				<td>1.335 </td>
+				<td>-2.097 </td>
+				<td>LOW_SNR,RV_SUSPECT,SUSPECT_ROTATION </td>
+				<td>2049 </td>
+			</tr>
+			<tr>
+				<td>58509 </td>
+				<td><b>2.97975</b> </td>
+				<td>nan </td>
+				<td>nan </td>
+				<td>nan </td>
+				<td>nan </td>
+				<td>nan </td>
+				<td>LOW_SNR </td>
+				<td>0 </td>
+			</tr>
+			<tr>
+				<td>58562 </td>
+				<td><b>4.74306</b> </td>
+				<td>236.323 </td>
+				<td>0.904 </td>
+				<td>4586.966 </td>
+				<td>1.335 </td>
+				<td>-2.097 </td>
+				<td>LOW_SNR,SUSPECT_ROTATION </td>
+				<td>1 </td>
+			</tr>
+			<tr>
+				<td>58565 </td>
+				<td>6.62833 </td>
+				<td>237.054 </td>
+				<td>0.626 </td>
+				<td>4586.966 </td>
+				<td>1.335 </td>
+				<td>-2.097 </td>
+				<td>RV_SUSPECT </td>
+				<td>2049 </td>
+			</tr>
+			<tr>
+				<td>58592 </td>
+				<td><b>3.16815</b> </td>
+				<td>235.872 </td>
+				<td>1.395 </td>
+				<td>4586.966 </td>
+				<td>1.335 </td>
+				<td>-2.097 </td>
+				<td>LOW_SNR,SUSPECT_ROTATION </td>
+				<td>1 </td>
+			</tr>
+			<tr>
+				<td>58617 </td>
+				<td><b>4.73976</b> </td>
+				<td>237.117 </td>
+				<td>0.815 </td>
+				<td>4586.966 </td>
+				<td>1.335 </td>
+				<td>-2.097 </td>
+				<td>LOW_SNR,SUSPECT_ROTATION </td>
+				<td>1 </td>
+			</tr>
+			<tr>
+				<td>58620 </td>
+				<td><b>4.60988</b> </td>
+				<td>237.064 </td>
+				<td>0.876 </td>
+				<td>4586.966 </td>
+				<td>1.335 </td>
+				<td>-2.097 </td>
+				<td>LOW_SNR </td>
+				<td>1 </td>
+			</tr>
+			<tr>
+				<td>58626 </td>
+				<td><b>4.55346</b> </td>
+				<td>240.566 </td>
+				<td>0.794 </td>
+				<td>4586.966 </td>
+				<td>1.335 </td>
+				<td>-2.097 </td>
+				<td>LOW_SNR </td>
+				<td>1 </td>
+			</tr>
+			<tr>
+				<td>58861 </td>
+				<td>7.35843 </td>
+				<td>236.923 </td>
+				<td>0.527 </td>
+				<td>4586.966 </td>
+				<td>1.335 </td>
+				<td>-2.097 </td>
+				<td>-- </td>
+				<td>1 </td>
+			</tr>
+			<tr>
+				<td>58885 </td>
+				<td>7.08413 </td>
+				<td>238.667 </td>
+				<td>0.581 </td>
+				<td>4586.966 </td>
+				<td>1.335 </td>
+				<td>-2.097 </td>
+				<td>SUSPECT_ROTATION </td>
+				<td>1 </td>
+			</tr>
+			<tr>
+				<td>58888 </td>
+				<td>8.10355 </td>
+				<td>236.363 </td>
+				<td>0.514 </td>
+				<td>4586.966 </td>
+				<td>1.335 </td>
+				<td>-2.097 </td>
+				<td>-- </td>
+				<td>1 </td>
+			</tr>
+			<tr>
+				<td>58891 </td>
+				<td><b>4.06605</b> </td>
+				<td>237.122 </td>
+				<td>0.929 </td>
+				<td>4586.966 </td>
+				<td>1.335 </td>
+				<td>-2.097 </td>
+				<td>LOW_SNR,SUSPECT_ROTATION </td>
+				<td>1 </td>
+			</tr>
+			<tr>
+				<td>58894 </td>
+				<td>9.42179 </td>
+				<td>238.689 </td>
+				<td>0.454 </td>
+				<td>4586.966 </td>
+				<td>1.335 </td>
+				<td>-2.097 </td>
+				<td>SUSPECT_ROTATION </td>
+				<td>1 </td>
+			</tr>
+			<tr>
+				<td>58913 </td>
+				<td>5.29573 </td>
+				<td>240.275 </td>
+				<td>0.781 </td>
+				<td>4586.966 </td>
+				<td>1.335 </td>
+				<td>-2.097 </td>
+				<td>SUSPECT_ROTATION </td>
+				<td>1 </td>
+			</tr>
+			<tr>
+				<td>58916 </td>
+				<td>7.83243 </td>
+				<td>238.347 </td>
+				<td>0.538 </td>
+				<td>4586.966 </td>
+				<td>1.335 </td>
+				<td>-2.097 </td>
+				<td>-- </td>
+				<td>1 </td>
+			</tr>
+			<tr>
+				<td>58919 </td>
+				<td>9.32047 </td>
+				<td>238.423 </td>
+				<td>0.455 </td>
+				<td>4586.966 </td>
+				<td>1.335 </td>
+				<td>-2.097 </td>
+				<td>SUSPECT_ROTATION </td>
+				<td>1 </td>
+			</tr>
+			<tr>
+				<td>58922 </td>
+				<td><b>0.943907</b> </td>
+				<td>nan </td>
+				<td>nan </td>
+				<td>nan </td>
+				<td>nan </td>
+				<td>nan </td>
+				<td>LOW_SNR </td>
+				<td>0 </td>
+			</tr>
+			<tr>
+				<td>58923 </td>
+				<td>8.08573 </td>
+				<td>238.498 </td>
+				<td>0.511 </td>
+				<td>4586.966 </td>
+				<td>1.335 </td>
+				<td>-2.097 </td>
+				<td>-- </td>
+				<td>1 </td>
+			</tr>
+		</table>
+
+<br>
+<hr>
+		<img src="/images/sextans/phase_folded/2M10122620-0138301/Phase_0.jpg" alt="Phase 0" id="three_image">
+		<img src="/images/sextans/phase_folded/2M10122620-0138301/Phase_1.jpg" alt="Phase 0" id="three_image">
+		<img src="/images/sextans/phase_folded/2M10122620-0138301/Phase_2.jpg" alt="Phase 0" id="three_image">
+		<img src="/images/sextans/phase_folded/2M10122620-0138301/Phase_3.jpg" alt="Phase 0" id="three_image">
+
+<div class="spacing_after_boxes">
+</div>
+
+<br>
+<div id="footer">
+	<a href="index.html" class="foot_link">Home</a> 
+	| <a href="html/menu.html" class="foot_link">Research</a>
+	| <a href="html/ourcoffee.html" class="foot_link">CV</a> 
+</div>
+</body>
+</html>
