@@ -1,0 +1,7 @@
+<hr>
+
+<h2>Binary Candidate Analysis</h2>
+
+<img src="/images/sextans/mass_period/%s_msini.jpg" alt="%s companion mass estimates" id="ccf_image">
+
+<hr>

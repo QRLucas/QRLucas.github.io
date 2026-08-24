@@ -1,0 +1,7 @@
+		<tr>
+			<td>%s</td>
+			<td><a href="/images/frac_test/rv_curves/%s_rv_curve.png" target="_blank"><img src="/images/frac_test/rv_curves/%s_rv_curve.png" alt="%s" id="table_image"></a></td>
+			<td><a href="/images/frac_test/K/%s_Kvals.png" target="_blank"><img src="/images/frac_test/K/%s_Kvals.png" alt="%s" id="table_image"></a></td>
+			<td><a href="/images/frac_test/M2/%s_Mvals.png" target="_blank"><img src="/images/frac_test/M2/%s_Mvals.png" alt="%s" id="table_image"></a></td>
+			<td><a href="/images/frac_test/M2_randi/%s_Mvals.png" target="_blank"><img src="/images/frac_test/M2_randi/%s_Mvals.png" alt="%s" id="table_image"></a></td>
+		</tr>

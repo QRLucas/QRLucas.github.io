@@ -1,0 +1,7 @@
+		<tr>
+			<td%s>%i</td>
+			<td%s><a href="/images/%s/N_curves_xtrend_allrv/%s_rv_curve.png" target="_blank"><img src="/images/%s/N_curves_xtrend_allrv/%s_rv_curve.png" alt="%s" id="table_image"></a></td>
+			<td%s><a href="/images/%s/N_curves_xtrend_rvrjt/%s_rv_curve.png" target="_blank"><img src="/images/%s/N_curves_xtrend_rvrjt/%s_rv_curve.png" alt="%s" id="table_image"></a></td>
+			<td%s><a href="/images/%s/N_curves_xtrend_allrv_longp/%s_rv_curve.png" target="_blank"><img src="/images/%s/N_curves_xtrend_allrv_longp/%s_rv_curve.png" alt="%s" id="table_image"></a></td>
+			<td%s><a href="/images/%s/N_curves_xtrend_rvrjt_longp/%s_rv_curve.png" target="_blank"><img src="/images/%s/N_curves_xtrend_rvrjt_longp/%s_rv_curve.png" alt="%s" id="table_image"></a></td>
+		</tr>

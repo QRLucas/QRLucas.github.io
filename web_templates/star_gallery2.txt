@@ -1,0 +1,13 @@
+<img src="/images/CARINA/p_vs_e/%s_pe_scatter.jpg" alt="%s Period-eccentricity" id="two_image">
+<img src="/images/CARINA/p_vs_k/%s_pk_scatter.jpg" alt="%s K vs Period" id="two_image">
+
+<img src="/images/CARINA/p_hist/%s_histogram.jpg" alt="%s Period Histogram" id="two_image">
+<img src="/images/CARINA/mass_period/%s_msini.jpg" alt="%s companion masses" id="two_image">
+
+<img src="/images/CARINA/periodogram/%s_periodogram.jpg" alt="%s Periodogram" id="two_image">
+<img src="/images/CARINA/likelihood_hist_test/%s_likelihoods.jpg" alt="%s Joker delta likelihoods" id="two_image">
+
+
+
+<br> 
+<img src="/images/CARINA/ccfs2/asStar-dr17-%s_ccf.jpg" alt="%s Cross-Correlation Function" id="ccf_image">

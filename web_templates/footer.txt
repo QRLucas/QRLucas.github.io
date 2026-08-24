@@ -1,0 +1,12 @@
+
+<div class="spacing_after_boxes">
+</div>
+
+<br>
+<div id="footer">
+	<a href="index.html" class="foot_link">Home</a> 
+	| <a href="html/menu.html" class="foot_link">Research</a>
+	| <a href="html/ourcoffee.html" class="foot_link">CV</a> 
+</div>
+</body>
+</html>

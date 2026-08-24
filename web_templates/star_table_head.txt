@@ -1,0 +1,15 @@
+<h3>Summary of APOGEE Visits:</h3>
+
+	<div>
+		<table id="data">
+  			<tr>
+				<th>Date</th>
+				<th>SNR</th>
+				<th>RV </th>
+				<th>RV error</th>
+				<th>Temp</th>
+				<th>log(g)</th>
+				<th>FE/H</th>
+				<th>Star Flags</th>
+				<th>RV Flags</th>
+			</tr>

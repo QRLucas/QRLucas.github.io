@@ -1,0 +1,16 @@
+		<tr%s>
+			<td>%i</td>
+			<td><a href="/html/%s/%s">%s</a></td>
+			<td>T_eff = %.3f<br>
+				log(g) = %.3f<br>
+				metalicity = %.3f<br>
+				h mag = %.3f<br>
+				gaia g mag = %.3f<br></td>
+			<td><a href="/images/%s/rv_curves_fit_1/%s_rv_curve.jpg" target="_blank"><img src="/images/%s/rv_curves_fit_4/%s_rv_curve.jpg" alt="%s" id="table_image"></a></td>
+			<td>N = %d<br>
+				Unimodal? %s<br>
+				avg P = %.2f<br>
+				avg e = %.2f<br>
+				GAIA Noise = %.2f<br></td>
+			<td><a href="/images/%s/likelihood_hist_trend_1_rvall/%s_likelihoods.jpg" target="_blank"><img src="/images/%s/likelihood_hist_trend_1_rvall/%s_likelihoods.jpg" alt="%s" id="table_image"></a></td>
+		</tr>

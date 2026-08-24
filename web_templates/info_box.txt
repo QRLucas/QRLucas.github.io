@@ -1,0 +1,42 @@
+<h1>%i: APOGEE Star %s </h1>
+
+<img src="/images/%s/rv_curves_fit_1/%s_rv_curve.jpg" alt="%s RV curve" id="one_image">
+
+  <h3>Summary of stellar properties:</h3>
+  		<b>APOGEE visits:</b> %d <br>
+		<b>Mean SNR</b> = %.2f <br>
+		<b>h mag</b> = %.2f <br>
+		<b>gaia g mag</b> = %.2f <br>
+
+	<h4>GAIA fit parameters</h4>
+		<b>RUWE:</b> = %.3f <br>
+		<b>Excess Astrometric Noise:</b> = %.3f <br>
+		<b>Astrometric Noise Sig:</b> = %.3f <br>
+		<b>Goodness of Fit:</b> = %.3f <br>
+
+  	<h4>ASPCAP-derived properties</h4>
+  		<b>T_eff</b> = %.2f K<br>
+  		<b>log(g)</b> = %.3f <br>
+		<b>metalicity</b> = %.3f <br>
+
+	<h4>RV-derived properties</h4>
+  		<b>RV T_eff</b> = %.2f K<br>
+  		<b>RV log(g)</b> = %.3f <br>
+		<b>RV metalicity</b> = %.3f <br>
+
+	<h4>Joker-derived properties</h4>
+		<b>Joker samples:</b> %d <br>
+		<b>Unimodal?:</b> %s <br>
+		<b>Period average</b> =  %.2f days<br>
+		<b>Eccentricity average</b> = %.2f <br>
+		<b>Semi-amplitude average</b> = %.2f km/s<br>
+		<!-- <b>Minimum Delta ln liklihood</b> = .2f <br>
+		(minimum difference in the log-liklihood of the Joker models compared to a simple linear fit)- -->
+
+	<h4>Derived properties</h4>
+		<b>ν_max:</b> %.2e Hz<br>
+		<b>Δ_ν:</b> %0.2e Hz<br>
+		<b>Stellar Surface Period:</b> %.2f days 
+	
+	<br>
+
